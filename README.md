@@ -1,154 +1,152 @@
-Contribution: 2011-07-07 20:00
+# Django E-commerce.
 
-Contribution: 2011-07-07 20:01
+<p align='center'>
+<img src="https://img.shields.io/badge/Django-239120?logo=django&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-239120?logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoft-sql-server&logoColor=white" />
+<img src="https://img.shields.io/badge/html5-E34F26?logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/css3-1572B6?logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/bootstrap-563D7C?logo=bootstrap&logoColor=white" />
+<img src="https://img.shields.io/badge/Github-181717?logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/PayPal-000144?logo=paypal&logoColor=white" />
+</p>
 
-Contribution: 2011-07-07 20:02
 
-Contribution: 2011-07-11 20:00
+<hr class="dotted">
+It is an E-commerce system built in Django. It contains all the essentials for adding products and use PayPal and Stripe as payment systems.
 
-Contribution: 2011-07-11 20:01
+## About this Project:
 
-Contribution: 2011-07-12 20:00
+It is an E-commerce system built in Django. It contains all the essentials for adding products and use PayPal and Stripe as payment systems.
 
-Contribution: 2011-07-12 20:01
+The repository is a start point for most of my professional projects; for this, I'm using as a part of my portfolio, feel free to use wherever you want. I'll be happy if you provide any feedback or code improvements or suggestions.
 
-Contribution: 2011-07-15 20:00
+Connect with me at:
 
-Contribution: 2011-07-15 20:01
+<p align='center'>
+    
+  <a href="https://www.linkedin.com/in/fl4viooliveira/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>&nbsp;&nbsp;
+  <a href="https://stackoverflow.com/users/13045151/">
+    <img src="https://img.shields.io/badge/stackoverflow-%23E4405F.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white" />        
+  </a>&nbsp;&nbsp;
+  
+</p>
 
-Contribution: 2011-07-18 20:00
+<p align='center'>
+  📫 How to reach me: <a href='mailto:fl4viooliveira@gmail.com'>fl4viooliveira@gmail.com</a>
+</p>
+<p align='center'>
+  <a href="#"><img src="https://badges.pufler.dev/visits/fl4viooliveira/django_ecommerce"></a> 
+</p>
 
-Contribution: 2011-07-18 20:01
+## Some technical information:
 
-Contribution: 2011-07-20 20:00
+- Django - 3.1.1 
+- Django Allauth - 0.42.0
+- Django Crispy Forms - 1.9.2
+- Django Environ - 0.4.5
+- Stripe - 2.51.0
 
-Contribution: 2011-07-20 20:01
 
-Contribution: 2011-07-20 20:02
+## To Install:
 
-Contribution: 2011-07-20 20:03
+Cloning the Repository:
 
-Contribution: 2011-07-20 20:04
+```
+$ git clone https://github.com/fl4viooliveira/django_ecommerce.git
 
-Contribution: 2011-07-21 20:00
+$ cd django_ecommerce 
 
-Contribution: 2011-07-22 20:00
+```
 
-Contribution: 2011-07-22 20:01
+Installing the environment control:
 
-Contribution: 2011-07-22 20:02
+```
+$ pip install virtualenv
 
-Contribution: 2011-07-22 20:03
+$ virtualenv env
 
-Contribution: 2011-07-22 20:04
+```
 
-Contribution: 2011-07-26 20:00
+Activating the environment:
 
-Contribution: 2011-07-26 20:01
+on Windows:
+```
+env\Scripts\activate
 
-Contribution: 2011-07-27 20:00
+```
+on Mac OS / Linux:
+```
+$ source env/bin/activate
 
-Contribution: 2011-07-27 20:01
+```
 
-Contribution: 2011-07-27 20:02
+Installing dependencies:
 
-Contribution: 2011-07-28 20:00
+```
+$ pip install -r requirements.txt
 
-Contribution: 2011-07-28 20:01
+```
 
-Contribution: 2011-07-28 20:02
+Create a .env file on ecom folder (/ecom/.env) setting all requirements without using space after "=". 
 
-Contribution: 2011-07-29 20:00
+Copy and paste on our .env file:
 
-Contribution: 2011-07-29 20:01
+```
+DEBUG=
+SECRET_KEY=
+DEFAULT_FROM_EMAIL=
+NOTIFY_EMAIL=
+PAYPAL_SANDBOX_CLIENT_ID=
+PAYPAL_SANDBOX_SECRET_KEY=
+PAYPAL_LIVE_CLIENT_ID=
+PAYPAL_LIVE_SECRET_KEY=
+STRIPE_PUBLIC_KEY=
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOK_SECRET=
 
-Contribution: 2011-07-29 20:02
+```
 
-Contribution: 2011-07-29 20:03
+Last commands to start:
 
-Contribution: 2011-08-03 20:00
+```
+$ python manage.py makemigrations
 
-Contribution: 2011-08-03 20:01
+$ python manage.py migrate
 
-Contribution: 2011-08-03 20:02
+```
+Create a super user:
 
-Contribution: 2011-08-04 20:00
+```
+$ python manage.py createsuperuser admin-name
 
-Contribution: 2011-08-04 20:01
+```
 
-Contribution: 2011-08-04 20:02
+Finishing running server:
 
-Contribution: 2011-08-08 20:00
+```
+$ python manage.py runserver
 
-Contribution: 2011-08-08 20:01
+```
 
-Contribution: 2011-08-09 20:00
+## Contributing
 
-Contribution: 2011-08-09 20:01
+You can send how many PR's do you want, I'll be glad to analyse and accept them! And if you have any question about the project...
 
-Contribution: 2011-08-11 20:00
+📫Email-me: <a href='mailto:dev753951789@gmail.com'>dev753951789@gmail.com</a>
 
-Contribution: 2011-08-11 20:01
+ <a href="https://www.linkedin.com/in/fl4viooliveira/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>&nbsp;&nbsp;
 
-Contribution: 2011-08-11 20:02
+Thank you!
 
-Contribution: 2011-08-15 20:00
+## License
 
-Contribution: 2011-08-15 20:01
+<a href="https://github.com/fl4viooliveira/django_ecommerce/blob/master/LICENSE">
+    <img alt="NPM" src="https://img.shields.io/npm/l/license?style=for-the-badge">
+</a>&nbsp;&nbsp;
 
-Contribution: 2011-08-15 20:02
-
-Contribution: 2011-08-15 20:03
-
-Contribution: 2011-08-15 20:04
-
-Contribution: 2011-08-16 20:00
-
-Contribution: 2011-08-16 20:01
-
-Contribution: 2011-08-16 20:02
-
-Contribution: 2011-08-16 20:03
-
-Contribution: 2011-08-16 20:04
-
-Contribution: 2011-08-22 20:00
-
-Contribution: 2011-08-22 20:01
-
-Contribution: 2011-08-23 20:00
-
-Contribution: 2011-08-23 20:01
-
-Contribution: 2011-08-23 20:02
-
-Contribution: 2011-08-23 20:03
-
-Contribution: 2011-08-23 20:04
-
-Contribution: 2011-08-25 20:00
-
-Contribution: 2011-08-26 20:00
-
-Contribution: 2011-08-26 20:01
-
-Contribution: 2011-08-26 20:02
-
-Contribution: 2011-08-26 20:03
-
-Contribution: 2011-08-26 20:04
-
-Contribution: 2011-09-01 20:00
-
-Contribution: 2011-09-01 20:01
-
-Contribution: 2011-09-02 20:00
-
-Contribution: 2011-09-02 20:01
-
-Contribution: 2011-09-02 20:02
-
-Contribution: 2011-09-02 20:03
-
-Contribution: 2011-09-02 20:04
-
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/fl4viooliveira/django_ecommerce/blob/master/LICENSE) file for details.
